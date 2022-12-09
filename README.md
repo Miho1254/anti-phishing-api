@@ -1,6 +1,7 @@
 # discord-phishing-backend
-Discord Phishing API list with Redis and Docker<br>
-Author: https://github.com/phamleduy04/discord-phishing-backend
+- Discord Phishing API with Redis and Docker
+- Author: https://github.com/phamleduy04/discord-phishing-backend
+- Public API: http://wamvn.net:1254/
 
 # API Endpoints
 ## Authorization
@@ -34,6 +35,9 @@ Some API requests require the use of a generated API key. To set API key, please
 3. Change others variable to fit your environment (`PORT`, `TIMEZONE`)
 4. Run `docker-compose up -d` to run the container
 
+## Running with pm2 (not tested yet)
+- Run as `pm2 start npm --name "app name" -- start`<br><br>
+Example: `pm2 start npm --name "cool-anti-phishing" -- start` 
 
 # Miho note (9/12/2022)
 - Không cần file json vì source tự fetch api từ các nguồn và quăng vào redis.
