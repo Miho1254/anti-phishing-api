@@ -9,6 +9,7 @@ import uploadToGithub from '../upload/github';
 async function bootstrap() {
     const app = await NestFactory.create<NestFastifyApplication>(AppModule, new FastifyAdapter());
     app.use(morgan('dev'));
+    app.enableCors();
     await app.listen(config.port, '0.0.0.0');
     console.log(`Server running on port ${config.port}`);
 }
