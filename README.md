@@ -1,6 +1,7 @@
 # discord-phishing-backend
-Discord Phishing API list with Redis and Docker<br>
-Author: https://github.com/phamleduy04/discord-phishing-backend
+- Discord Phishing API with Redis and Docker
+- Author: https://github.com/phamleduy04/discord-phishing-backend
+- Public API: http://wamvn.net:1254/
 
 # API Endpoints
 ## Authorization
